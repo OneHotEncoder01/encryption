@@ -1,18 +1,13 @@
-# encryption
-Die „Gartenzaun“-Transposition
-Bei der „Gartenzaun“-Transposition werden die Buchstaben des Textes abwechselnd auf zwei Zeilen
-geschrieben und anschließend wird die zweite Zeile an die erste angehängt:
-LIEBERTUGENDHAFTALSJUGENDHAFT
-Klartext
-L E E T G N H F A S U E D A T
-I B R U E D A T L J G N H F
-LEETGNHFASUEDATIBRUEDATLJGNHF
-Geheimtext
-Der Name kommt daher, dass die versetzte Anordnung der Buchstaben auf zwei Zeilen mit etwas Fan-
-tasie an einen Gartenzaun erinnert.
+Die „Rail Fence“-Chiffre ist eine Form der Transpositionschiffre, bei der die Buchstaben eines Textes abwechselnd auf zwei Zeilen geschrieben werden, was die Form eines Gartenzauns simuliert. Nachdem der Text geschrieben wurde, wird die zweite Zeile an die erste angehängt, um den Geheimtext zu erstellen. Hier ist eine schrittweise Erklärung unter Verwendung des Wortes „Antidisestablishmentarianism“:
 
-open the encryption.py and enter "Antidisestablishmentarianism".
-you should receive "Asnhtmiednitsaersitaanbilsim"
-
-word = Antidisestablishmentarianism
-encrypted word = Asnhtmiednitsaersitaanbilsim
+Schreiben des Textes auf zwei Zeilen: Platzieren Sie jeden Buchstaben abwechselnd auf zwei verschiedenen Zeilen. Zeile 1: A n t i d i s e s t a b l i s h m e n t a r i a n i s m
+Zeile 2: n i i s a l s m n a r s m
+Ergibt:
+Zeile 1: A t d s e t b i h e t r a i i m
+Zeile 2: n i i s a l s m n a r s m
+Zusammenfügen der Zeilen: Hängen Sie die zweite Zeile an das Ende der ersten an, um den Geheimtext zu bilden.
+Geheimtext: A t d s e t b i h e t r a i i m n i i s a l s m n a r s m
+Endgültige Ausgabe:
+Klartext: Antidisestablishmentarianism
+Geheimtext: Atdsetbihetr.aiimniisalsmnarsm
+Diese Methode wird „Rail Fence“ genannt, weil die versetzte Anordnung der Buchstaben über zwei Zeilen mit etwas Fantasie einem Gartenzaun ähnelt. Der deutsche Name „Gartenzaun“ lässt sich wörtlich mit „Gartenzaun“ übersetzen.
